@@ -3,12 +3,16 @@ package com.POOSpringBoot.POOSpringBoot.services;
 import com.POOSpringBoot.POOSpringBoot.models.UserModel;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.core.type.TypeReference;
+import org.springframework.stereotype.Service;
 
 import java.io.File;
 import java.io.IOException;
 import java.net.URISyntaxException;
 import java.util.ArrayList;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
+@Service
 public class UserService implements IUserService{
     private static final String FILE_PATH = "usuarios.json";
     private final ObjectMapper objectMapper = new ObjectMapper();
@@ -42,18 +46,53 @@ public class UserService implements IUserService{
     @Override
     public UserModel crearUsuario(UserModel u) {
         ArrayList<UserModel> userModels = this.obtenerTodosUsuarios();
-        //Crear el id
-        Long id = 1L;
-        if (!userModels.isEmpty()){
-            id = userModels.get(userModels.size() - 1).getId() + 1;
-        }
-        u.setId(id);
-        userModels.add(u);
-        try {
-            File archivo = new File(getClass().getClassLoader().getResource(FILE_PATH).toURI());
-            objectMapper.writeValue(archivo,userModels);
-        } catch (IOException | URISyntaxException e){
-            throw new RuntimeException(e);
+
+        if (u.getPassword().length() > 8){
+            boolean mayuscula = false;
+            boolean numero = false;
+            boolean letraOsimbolo = false;
+            boolean especial = false;
+
+            Pattern special = Pattern.compile("[?!¡@¿.,´)]");
+            Matcher hasSpecial = special.matcher(u.getPassword());
+            char l;
+
+            for(int i = 0; i < u.getPassword().length(); i++){
+                l = u.getPassword().charAt(i);
+
+                if (Character.isDigit(l)){
+                    numero = true;
+                }
+                if (Character.isLetter(l)){
+                    letraOsimbolo = true;
+                }
+                if (Character.isUpperCase(l)){
+                    mayuscula = true;
+                }
+                if (hasSpecial.find()){
+                    especial = true;
+                }
+            }
+            if (numero == true && mayuscula == true && letraOsimbolo == true && especial == true){
+               // asdasdasd
+                //Crear el id
+                Long id = 1L;
+                if (!userModels.isEmpty()){
+                    id = userModels.get(userModels.size() - 1).getId() + 1;
+                }
+                u.setId(id);
+                userModels.add(u);
+                try {
+                    File archivo = new File(getClass().getClassLoader().getResource(FILE_PATH).toURI());
+                    objectMapper.writeValue(archivo,userModels);
+                } catch (IOException | URISyntaxException e){
+                    throw new RuntimeException(e);
+                }
+            } else {
+                System.out.println("La contraseña no cumple con lo mínimo requerido");
+            }
+        } else {
+            System.out.println("La contraseña no cumple con lo mínimo requerido");
         }
         return u;
     }

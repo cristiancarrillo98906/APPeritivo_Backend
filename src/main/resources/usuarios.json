@@ -1,45 +1,45 @@
 [
   {
-    "idUser": 1,
+    "id": 1,
     "username": "juan_admin",
-    "firstName": "Juan",
-    "lastName": "Pérez",
+    "name": "Juan",
+    "lastname": "Pérez",
     "email": "juan.perez@example.com",
     "password": "12345678",
     "profile": "admin"
   },
   {
-    "idUser": 2,
+    "id": 2,
     "username": "maria89",
-    "firstName": "María",
-    "lastName": "González",
+    "name": "María",
+    "lastname": "González",
     "email": "maria.gonzalez@example.com",
     "password": "contraseñaSegura",
     "profile": "profesor"
   },
   {
-    "idUser": 3,
+    "id": 3,
     "username": "carlos_dev",
-    "firstName": "Carlos",
-    "lastName": "Ramírez",
+    "name": "Carlos",
+    "lastname": "Ramírez",
     "email": "carlos.ramirez@example.com",
     "password": "pass1234",
     "profile": "alumno"
   },
   {
-    "idUser": 4,
+    "id": 4,
     "username": "laura_t",
-    "firstName": "Laura",
-    "lastName": "Torres",
+    "name": "Laura",
+    "lastname": "Torres",
     "email": "laura.torres@example.com",
     "password": "lauraPass",
     "profile": "profesor"
   },
   {
-    "idUser": 5,
+    "id": 5,
     "username": "pedro_alum",
-    "firstName": "Pedro",
-    "lastName": "Fernández",
+    "name": "Pedro",
+    "lastname": "Fernández",
     "email": "pedro.fernandez@example.com",
     "password": "adminPass",
     "profile": "alumno"
