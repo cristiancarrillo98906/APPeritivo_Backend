@@ -47,6 +47,13 @@ public class UserService implements IUserService{
     public UserModel crearUsuario(UserModel u) {
         ArrayList<UserModel> userModels = this.obtenerTodosUsuarios();
 
+        for (UserModel user: userModels){
+            if (u.getUsername().equalsIgnoreCase(user.getUsername())){
+                System.out.println("El usuario ingresado ya existe, por favor intenta con otro usuario");
+                return null;
+            }
+        }
+
         if (u.getPassword().length() > 8){
             boolean mayuscula = false;
             boolean numero = false;
