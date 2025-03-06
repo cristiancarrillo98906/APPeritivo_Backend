@@ -81,7 +81,6 @@ public class UserService implements IUserService{
                 }
             }
             if (numero == true && mayuscula == true && letraOsimbolo == true && especial == true){
-               // asdasdasd
                 //Crear el id
                 Long id = 1L;
                 if (!userModels.isEmpty()){
@@ -106,7 +105,7 @@ public class UserService implements IUserService{
 
     @Override
     public UserModel actualizarUsuario(Long id, UserModel u) {
-        ArrayList<UserModel> userModels = obtenerTodosUsuarios();
+        ArrayList<UserModel> userModels = this.obtenerTodosUsuarios();
         UserModel usuarioEncontrado = null;
         for (UserModel user: userModels){
             if (user.getId() == id){
@@ -133,7 +132,7 @@ public class UserService implements IUserService{
 
     @Override
     public UserModel eliminarUsuario(Long id) {
-        ArrayList<UserModel> userModels = obtenerTodosUsuarios();
+        ArrayList<UserModel> userModels = this.obtenerTodosUsuarios();
         UserModel usuarioEliminado = null;
 
         for (UserModel user: userModels){

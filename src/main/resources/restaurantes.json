@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "nombre": "Warynessy",
+    "ubicacion": "Calle de Isabel la Católica, 13",
+    "descripcion": "Warynessy, Ubicado en Villena, es una excelente opción para disfrutar de una cocina de tapas variadas en un ambiente relajado y acogedor. Destacan sus croquetas, y sus precios oscillan entre 30-45€ por persona. Con una valoración de 8.99, es recomendable reservar con antelación, se aceptan pagos con tarjeta.",
+    "propietario": "Elmo reno"
+  },
+  {
+    "id": 2,
+    "nombre": "L'ampadini",
+    "ubicacion": "Calle Compositor Maestro Manuel Carracosa, 4",
+    "descripcion": "Restaurante Italiano en Villena especializado en pastas, risottos y pizzas, elaborados con esmero y salsas artesanales. Disfruta de platos de alta calidad en un ambiente acogedor.",
+    "propietario": "Esteban Dido"
+  },
+  {
+    "id": 3,
+    "nombre": "Titas Gastrobar",
+    "ubicacion": "Calle Compositor Maestro Manuel Carracosa, 1",
+    "descripcion": "Restaurante de tapas en Villena con una ubicación inmejorable y un ambiente acogedor. Destaca por su exquisito pulpo, precios accesibles y una terraza ideal para disfrutar en familia. Con una valoración media de 8.7 y 9.0 en Tripadvisor, ofrece un servicio atento y acepta pagos con tarjeta y efectivo. Se recomienda reservar, especialmente los fines de semana.",
+    "propietario": "Aitor Tilla"
+  },
+  {
+    "id": 4,
+    "nombre": "Rodeo Diner & Burguer",
+    "ubicacion": "Plaza del Rollo, 1",
+    "descripcion": "Rodeo, en Villena, es un restaurante acogedor y de moda, ideal para familias. Destaca por su variado menú y su delicioso queso. Ofrece buena relación calidad-precio y diferentes opciones de pago, se recomienda reservar. Consulta su galería de fotos para descubrir sus platos.",
+    "propietario": "Elton Tito"
+  },
+  {
+    "id": 5,
+    "nombre": "Cisoria Restaurante",
+    "ubicacion": "Calle de la Trinidad, 9",
+    "descripcion": "Cisoria toma su nombre del libro Arte Cisoria del siglo XV, considerado el primer tratado de gastronomía en castellano. Inspirados en su filosofia, el restaurante apuesta por el respeto al producto, las raíces y la sensatez en la preparación de sus platos, especialmente en carnes y caza.",
+    "propietario": "Alma Madero"
+  }
+]
