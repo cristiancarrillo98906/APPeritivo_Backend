@@ -1,0 +1,37 @@
+[
+  {
+    "idEvent": 1,
+    "nombre": "Cena de Gala",
+    "descripcion": "Evento exclusivo con menú degustación",
+    "fecha": "2025-06-15",
+    "idRestaurant": 101
+  },
+  {
+    "idEvent": 2,
+    "nombre": "Noche de Tapas",
+    "descripcion": "Degustación de tapas y vinos",
+    "fecha": "2025-07-10",
+    "idRestaurant": 102
+  },
+  {
+    "idEvent": 3,
+    "nombre": "Festival de Mariscos",
+    "descripcion": "Especialidades de mariscos frescos",
+    "fecha": "2025-08-05",
+    "idRestaurant": 103
+  },
+  {
+    "idEvent": 4,
+    "nombre": "Brunch Dominical",
+    "descripcion": "Buffet de brunch con música en vivo",
+    "fecha": "2025-09-20",
+    "idRestaurant": 104
+  },
+  {
+    "idEvent": 5,
+    "nombre": "Cata de Vinos",
+    "descripcion": "Selección de vinos con maridaje",
+    "fecha": "2025-10-15",
+    "idRestaurant": 105
+  }
+]

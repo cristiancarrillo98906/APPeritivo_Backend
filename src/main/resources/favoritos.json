@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "usuario_id": 101,
+    "restaurante_id": 201,
+    "fecha_agregado": "2025-03-12T14:30:00"
+  },
+  {
+    "id": 2,
+    "usuario_id": 102,
+    "restaurante_id": 202,
+    "fecha_agregado": "2025-03-11T18:45:00"
+  },
+  {
+    "id": 3,
+    "usuario_id": 103,
+    "restaurante_id": 203,
+    "fecha_agregado": "2025-03-10T12:15:00"
+  },
+  {
+    "id": 4,
+    "usuario_id": 104,
+    "restaurante_id": 204,
+    "fecha_agregado": "2025-03-09T20:00:00"
+  },
+  {
+    "id": 5,
+    "usuario_id": 105,
+    "restaurante_id": 205,
+    "fecha_agregado": "2025-03-08T10:05:00"
+  }
+]

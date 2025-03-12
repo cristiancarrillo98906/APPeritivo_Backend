@@ -1,0 +1,42 @@
+[
+  {
+    "idReview": 1,
+    "idUsuario": 101,
+    "idRestaurante": 5001,
+    "comentario": "La comida estuvo excelente, volveré pronto.",
+    "valoracion": 5,
+    "fecha": "2025-02-27"
+  },
+  {
+    "idReview": 2,
+    "idUsuario": 102,
+    "idRestaurante": 5002,
+    "comentario": "El servicio fue un poco lento, pero la comida estaba bien.",
+    "valoracion": 3,
+    "fecha": "2025-02-26"
+  },
+  {
+    "idReview": 3,
+    "idUsuario": 103,
+    "idRestaurante": 5001,
+    "comentario": "Buena atención y ambiente agradable.",
+    "valoracion": 4,
+    "fecha": "2025-02-25"
+  },
+  {
+    "idReview": 4,
+    "idUsuario": 104,
+    "idRestaurante": 5003,
+    "comentario": "No me gustó mucho la comida, esperaba más.",
+    "valoracion": 2,
+    "fecha": "2025-02-24"
+  },
+  {
+    "idReview": 5,
+    "idUsuario": 105,
+    "idRestaurante": 5002,
+    "comentario": "Increíble experiencia, todo estuvo perfecto.",
+    "valoracion": 5,
+    "fecha": "2025-02-23"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "idReserva": 1,
+    "idUsuario": 1,
+    "idRestaurante": 1,
+    "fecha": "2025-03-15T19:30:00",
+    "numPer": 2
+  },
+  {
+    "idReserva": 2,
+    "idUsuario": 2,
+    "idRestaurante": 2,
+    "fecha": "2025-03-16T20:00:00",
+    "numPer": 4
+  },
+  {
+    "idReserva": 3,
+    "idUsuario": 3,
+    "idRestaurante": 3,
+    "fecha": "2025-03-17T21:00:00",
+    "numPer": 3
+  },
+  {
+    "idReserva": 4,
+    "idUsuario": 4,
+    "idRestaurante": 4,
+    "fecha": "2025-03-18T18:45:00",
+    "numPer": 5
+  }
+]

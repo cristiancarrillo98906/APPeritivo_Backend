@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "titulo": "Estofado de ternera",
+    "ingredientes": "Patatas, Zanahorias, Ternera",
+    "instrucciones": "1º Preparar la carne, 2º Sofrito, 3º Cocción, 4º Añadir las patatas, 5º Servir"
+  },
+  {
+    "id": 2,
+    "titulo": "Tortilla de patatas",
+    "ingredientes": "Patatas, Huevos",
+    "instrucciones": "1º Pelar las patatas, 2º Freir las patatas, 3º Batir los huevos, 4º Mezclar las patatas con los huevos batidos, 5º Cocinar la mezcla de huevos y patatas, 6º Servir"
+  },
+  {
+    "id": 3,
+    "titulo": "Macarrones a la boloñesa",
+    "ingredientes": "Macarrones, Carne picada, Cebolla, Tomate",
+    "instrucciones": "1º Hervir los macarrones, 2º Sofrito, 3º Cocinar la carne picada, 4º Poner los macarrones hervidos con el sofrito y la carne, 5º Servir"
+  },
+  {
+    "id": 4,
+    "titulo": "Cocido",
+    "ingredientes": "Patatas, Zanahorias, Ternera, Pollo, Garbanzos, Tocino, Judías verdes, Fideos, Jamón",
+    "instrucciones": "1º Poner los garbanzos a remojo una noche antes, 2º Poner en una olla toda la carne y las verduras con agua, 3º Hacer la sopa, 4º Separar la carne de las verduras, 5º Servir"
+  },
+  {
+    "id": 5,
+    "titulo": "Lentejas",
+    "ingredientes": "Patatas, Zanahorias, Chorizo, Panceta, Lentejas",
+    "instrucciones": "1º Poner las lentejas a remojo una noche antes, 2º Sofrito, 3º Poner la carne y la verdura en una olla con agua, 4º Añadir las lentejas, 5º Servir"
+  }
+]
